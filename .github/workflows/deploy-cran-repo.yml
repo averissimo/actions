@@ -57,7 +57,7 @@ jobs:
       - name: Checkout r-wasm/actions repository
         uses: actions/checkout@v4
         with:
-          ref: v3
+          ref: main
           repository: averissimo/actions
           token: ${{ secrets.GITHUB_TOKEN }}
           path: .actions
