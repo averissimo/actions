@@ -58,7 +58,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: v3
-          repository: r-wasm/actions
+          repository: averissimo/actions
           token: ${{ secrets.GITHUB_TOKEN }}
           path: .actions
 
